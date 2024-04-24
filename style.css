@@ -1,0 +1,79 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff4e6; /* Light beige background for the body */
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #8d6e63; /* Coffee color */
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+section {
+  margin: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+/* Background colors for sections */
+section:nth-child(odd) {
+  background-color: #efebe9; /* Light gray */
+}
+
+section:nth-child(even) {
+  background-color: #d7ccc8; /* Light brown */
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Rounded corners for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Enhanced link styling */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #6d4c41; /* Darker shade of brown */
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover,
+a:focus {
+  background-color: #5d4037;
+  color: #ffe0b2;
+}
+
+/* Additional flare: Adding border to the nav and footer */
+header,
+footer {
+  border-bottom: 3px solid #6d4c41;
+  border-top: 3px solid #6d4c41;
+}
+
+footer {
+  border-top: none;
+}
